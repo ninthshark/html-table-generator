@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Table Generator</h1>
+      <p>How many column in your table :
+      <input type="number" name="no-column" min="1" id="number">
+      <input type="submit" name="submit" value="submit" class="submit">
+      </p>
+      <div class="merge-button">
+        <button id="merge">Merge Across</button>
+        <button id="merge-column">Merge Down</button>
+      </div>
+      <div class="table-area">
+
+      </div>
+      <div class="add-preview">
+
+      </div>
+      <div class="html-area">
+        <textarea cols="30" rows="10" class="html-viewer"><pre></pre></textarea>
+      </div>
+    </div>
+  </body>
+  <script src='main.js'></script>
+</html>
