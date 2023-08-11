@@ -229,7 +229,6 @@ function mergeDown() {
 
   function isMoreThanOneRowSelected() {
     var count = 0;
-
   }
 
 
